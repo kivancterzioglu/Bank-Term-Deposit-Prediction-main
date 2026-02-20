@@ -13,7 +13,7 @@ The repo contains:
 Create and activate a virtual environment (recommended), then install dependencies:
 
 ```bash
-cd c:/Users/kivan/OneDrive/Desktop/Bank-Term-Deposit-Prediction-main/Bank-Term-Deposit-Prediction-main/app.py
+cd /Users/kivan/OneDrive/Desktop/Bank-Term-Deposit-Prediction-main/Bank-Term-Deposit-Prediction-main/app.py
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
