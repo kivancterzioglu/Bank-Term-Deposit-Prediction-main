@@ -1,0 +1,26 @@
+{
+  "best_model": "log_reg",
+  "best_params": {
+    "clf__solver": "lbfgs",
+    "clf__C": 0.0533669923120631
+  },
+  "selection_metric": "average_precision",
+  "calibration": null,
+  "threshold": {
+    "strategy": "cost_based",
+    "value": 0.484287,
+    "details": {
+      "threshold": 0.484287,
+      "cost": 132.0,
+      "tn": 642,
+      "fp": 92,
+      "fn": 8,
+      "tp": 82
+    }
+  },
+  "test_metrics": {
+    "pr_auc": 0.6222756931634934,
+    "roc_auc": 0.9396457765667575,
+    "f1_at_threshold": 0.5992217898832685
+  }
+}
